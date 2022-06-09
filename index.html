@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wears | Home</title>
+    <script
+      src="https://kit.fontawesome.com/2eb70cb007.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="burger-menu">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-bars"></i>
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li
+                  ><a
+                    class="dropdown-item active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  ></li
+                >
+                <li
+                  ><a class="dropdown-item" href="products.html"
+                    >Products</a
+                  ></li
+                >
+                <div class="addAdmin-burger">
+                  <li>
+                    <a class="dropdown-item" href="admin/addProduct.html"
+                      >Add product</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./admin/editProducts.html"
+                      >Edit product</a
+                    >
+                  </li>
+                  <li>
+                    <button class="dropdown-item logout-btn" role="button"
+                      >Log out</button
+                    >
+                  </li>
+                </div>
+              </ul>
+            </li>
+          </div>
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="./logo/wears-logo-red.png"
+              alt="wears logo"
+              class="logo"
+            />
+          </a>
+          <div class="navbar-links">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <div class="addAdmin">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Admin
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li
+                      ><a class="dropdown-item" href="./admin/addProduct.html"
+                        >Add products</a
+                      ></li
+                    >
+                    <li>
+                      <a class="dropdown-item" href="./admin/editProducts.html"
+                        >Edit product</a
+                      >
+                    </li>
+                    <li
+                      ><button class="dropdown-item logout-btn-wide"
+                        >Log out</button
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <a class="d-flex cart-icon" href="cart.html"
+            ><i class="fas fa-shopping-bag"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container-fluid banner_container">
+        <div class="jumbotron-container"> </div>
+      </div>
+
+      <section class="container-sm">
+        <h1 class="text-center text-uppercase">Featured</h1>
+        <div class="featured-container row-cols-2 row-cols-lg-3">
+          <div class="loader"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/admin/login.html">Admin Login</a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./js/index.js" type="module"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

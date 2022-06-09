@@ -1,0 +1,14 @@
+.invalid-feedback {
+  display: none;
+}
+
+.card-text.description {
+  height: 150px;
+  overflow-y: scroll;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  text-transform: uppercase;
+}

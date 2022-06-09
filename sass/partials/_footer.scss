@@ -1,0 +1,21 @@
+footer {
+  text-transform: uppercase;
+  background-color: $dark;
+}
+
+footer .nav-link {
+  color: $light !important;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: table;
+  margin: 0;
+  background-color: $light;
+}
+
+footer {
+  display: table-row;
+}

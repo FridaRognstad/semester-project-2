@@ -1,0 +1,67 @@
+.navbar {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-links {
+  display: none;
+}
+
+.logo {
+  height: 28px;
+  margin: 16px;
+}
+
+.dropdown {
+  position: static !important;
+}
+
+.dropdown-menu {
+  width: 100% !important;
+  margin-top: 0px !important;
+  border-radius: 0;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: $primary;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa-bars,
+.fa-shopping-bag {
+  color: $dark;
+  font-size: 20px;
+}
+
+.cart-icon {
+  width: unset;
+  margin: unset;
+}
+
+@media only screen and (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+
+  .navbar-links {
+    display: block;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+
+  .cart-icon {
+    width: 112.45px;
+    margin: 13px;
+    justify-content: flex-end;
+  }
+}

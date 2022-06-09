@@ -1,0 +1,23 @@
+.featured-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: none;
+}
+
+.banner {
+  height: 200px;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+  .banner {
+    margin-bottom: 50px;
+    height: 500px;
+  }
+}
