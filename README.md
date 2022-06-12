@@ -19,7 +19,7 @@ This is a webpage I made for the Semester Project 2 when studying Front-end deve
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:FridaRognstad/portfolio2-ca.git
+git clone git@github.com:FridaRognstad/semester-project-2.git
 ```
 
 2. Install the dependencies:
