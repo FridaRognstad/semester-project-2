@@ -2,11 +2,10 @@
 
 ![image](https://github.com/FridaRognstad/semester-project-2/blob/main/semester-project-index.jpg?raw=true)
 
-Portfolio app displaying three of my assignments from the second year of my Frontend studies.
+Website for a fictional shoe company in Bergen.
 
 ## Description
-
-- Next.js app containing a nav that display Semester Project 2, Js Frameworks CA and Project Exam 2.
+This is a webpage I made for the Semester Project 2 when studying Front-end development. The project get requests to localhost. When devopling, I runned a Strapi API made by my school on the localhost.
 
 ## Built With
 
