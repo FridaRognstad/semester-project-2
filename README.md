@@ -2,10 +2,10 @@
 
 ![image](https://github.com/FridaRognstad/semester-project-2/blob/main/semester-project-index.jpg?raw=true)
 
-Website for a fictional shoe company in Bergen.
+Website for a fictional shoe company in Bergen. 
 
 ## Description
-This is a webpage I made for the Semester Project 2 when studying Front-end development. The project get requests to localhost. When devopling, I runned a Strapi API made by my school on the localhost.
+This is a webpage I made for the Semester Project 2 when studying Front-end development. The project get requests to localhost. When devopling, I runned a Strapi API made by my school on the localhost. The project is built up with regular Html and Javascript. It is designed using Sass and Bootstrap. 
 
 ## Built With
 
@@ -30,7 +30,8 @@ npm install
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+- You are welcome to fork the project.
+- If you are trying to make changes to the project, branch it before cloning.
 
 ## Contact
 
